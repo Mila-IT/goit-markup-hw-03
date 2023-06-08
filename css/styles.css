@@ -90,8 +90,6 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 .page-nav > ul {
   display: flex;
@@ -330,7 +328,7 @@ img {
   row-gap: 48px;
 }
 .services-link {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .services-link:nth-child(3n) {
   margin-right: 0;
