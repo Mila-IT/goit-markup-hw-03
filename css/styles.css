@@ -28,8 +28,8 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
 /*Navigation*/
 .logo {
@@ -207,7 +207,7 @@ img {
   margin-bottom: 8px;
 }
 .focus-image {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .focus-image .title {
   margin-bottom: 72px;
@@ -318,21 +318,20 @@ img {
   color: var(--bgc-color);
   border: 1px solid transparent;
 }
-.services {
+.services-list {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-  width: calc((100%-48px) / 3);
 }
 .services-link {
-  /* width: calc((100%-48px) / 3); */
+  margin-right: 24px;
+  width: calc((100%-48px) / 3);
+  margin-bottom: 48px;
 }
-.services-link:nth-last-child(3n) {
-  column-gap: 0;
-  row-gap: 0;
+.services-link:nth-child(3n) {
+  margin-right: 0;
+  margin-bottom: 0;
 }
 .services-category {
   padding: 32px 16px;
