@@ -254,8 +254,9 @@ img {
   margin-bottom: 8px;
   margin-top: 0;
 }
-.card-team .body-text {
+.team-list .body-text {
   text-align: center;
+  margin-top: 0;
 }
 
 /*Footer*/
