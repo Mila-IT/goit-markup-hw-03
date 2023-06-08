@@ -249,6 +249,11 @@ img {
 .card-team {
   padding: 32px 16px 32px;
 }
+.card-team .body-text {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .card-team .subtitle {
   text-align: center;
   margin-bottom: 8px;
@@ -256,8 +261,6 @@ img {
 }
 .team-list .body-text {
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 /*Footer*/
