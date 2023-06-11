@@ -114,6 +114,7 @@ img {
 .address-link {
   color: #434455;
   cursor: pointer;
+  font-style: normal;
 }
 .address-link:focus {
   color: var(--pressed-state);
@@ -128,7 +129,6 @@ img {
   background: var(--dark);
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-bottom: 120px;
 }
 .hero-title {
   display: block;
@@ -240,7 +240,6 @@ img {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
-  margin-bottom: 164px;
 }
 
 .team-title {
@@ -325,7 +324,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--accent-color);
+  color: var(--primary-brand);
   background-color: #f4f4fd;
   cursor: pointer;
   padding: 12px 24px;
@@ -335,13 +334,15 @@ img {
 }
 
 .filter-button:hover {
+  color: var(--white-bcg);
   background-color: #404bbf;
-  color: var(--bgc-color);
+
   border: 1px solid transparent;
 }
 .filter-button:focus {
+  color: var(--white-bcg);
   background-color: #404bbf;
-  color: var(--bgc-color);
+
   border: 1px solid transparent;
 }
 
